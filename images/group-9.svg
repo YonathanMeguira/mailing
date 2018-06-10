@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="45" viewBox="0 0 354 45">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="354" height="45" fill="#FFDEED" rx="17"/>
+        <g fill="#C3266C">
+            <text font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" transform="translate(100 10)">
+                <tspan x="0" y="21">SOUSCRIRE</tspan>
+            </text>
+            <path d="M255 23l-10 5V18zM243 23l-10 5V18zM230 23l-10 5V18z"/>
+        </g>
+    </g>
+</svg>
