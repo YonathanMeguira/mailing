@@ -21,6 +21,15 @@
             height: 629px;
         }
 
+        a {
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
         .first .images {
             padding-top: 42px;
         }
@@ -127,6 +136,11 @@
             margin-bottom: 33px;
         }
 
+        .phone:hover {
+            text-decoration: none;
+            color: white;
+        }
+
         .white-bk {
             background: white;
             border: solid 1px #b5b5b5;
@@ -201,8 +215,8 @@
             font-family: 'Open Sans', sans-serif !important;
         }
 
-        .sms {
-            height: 221px;
+        .sms-first {
+            height: 190px;
         }
 
         .arrow-internet {
@@ -211,6 +225,7 @@
             background: #b5b5b5 !important;
             border: none;
         }
+
         .arrow-info {
             width: 247px;
             height: 1px;
@@ -223,6 +238,7 @@
             background: #242e32;
             padding: 55px 150px;
         }
+
         .tarif-container {
             padding-top: 90px;
         }
@@ -261,9 +277,11 @@
         .last-item {
             border-bottom: solid 1px white;
         }
+
         .last-div {
             margin-top: 32px;
         }
+
         .Rectangle-3 {
             width: 339px;
             height: 44px;
@@ -286,7 +304,8 @@
             letter-spacing: normal;
             color: #4d6772;
         }
-        .pointer{
+
+        .pointer {
             cursor: pointer;
         }
     </style>
@@ -296,8 +315,11 @@
     <div class="main-container">
         <div class="first">
             <div class="row justify-content-center images">
-                <img src="./images/logo-annatel-haut.svg"
-                     class="Logo_annatel_haut">
+                <a href="https://www.sarelvolontariat.org/">
+                    <img src="./images/logo-annatel-haut.svg"
+                         class="Logo_annatel_haut">
+                </a>
+
                 <img src="images/logo-sarel.png"
                      class="logo_sarel">
             </div>
@@ -314,7 +336,9 @@
                 <div class="arrow"></div>
             </div>
             <div class="souscrire row justify-content-center">
-                <img src="images/group-9.svg">
+                <a href="https://www.annatel.net/fr_FR/landing/sarel?no_redirect=true">
+                    <img src="images/group-9.svg">
+                </a>
             </div>
             <div class="sous-souscrivez row justify-content-center align-items-center">
                 <div class="arrow-md"></div>
@@ -322,7 +346,7 @@
                 <div class="arrow-md"></div>
             </div>
             <div class="row justify-content-center">
-                <p class="phone text-center">01 70 36 50 60</p>
+                <a class="phone text-center" href="tel:33170365060">01 70 36 50 60</a>
             </div>
         </div>
         <div class="white-bk tarif-container">
@@ -348,7 +372,7 @@
                     <div class="big-arrow"></div>
                 </div>
                 <div style="padding-top: 50px">
-                    <p class="text-center section">
+                    <p class="text-center section mb-3">
                         Appels illimités vers les <span class="bold">fixes & les mobiles en Israël</span> pendant 1 mois
                         ainsi que vers les <span class="bold">fixes Francais et de plus de 30 destinations !<br>
                         300 Minutes d'appels vers les mobiles en France pendant 1 mois.<br>
@@ -359,7 +383,7 @@
                 </div>
 
             </div>
-            <div class="sms">
+            <div class="sms sms-first">
                 <div class="row align-items-center justify-content-between tarif">
                     <div class="big-arrow"></div>
                     <div class="row justify-content-center">
@@ -425,7 +449,9 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="souscrire row justify-content-center">
-                    <img src="images/group-9.svg">
+                    <a href="https://www.annatel.net/fr_FR/landing/sarel?no_redirect=true">
+                        <img src="images/group-9.svg">
+                    </a>
                 </div>
                 <div class="sous-souscrivez row justify-content-center align-items-center">
                     <div class="arrow-md"></div>
@@ -433,12 +459,14 @@
                     <div class="arrow-md"></div>
                 </div>
                 <div class="row justify-content-center">
-                    <p class="phone text-center">01 70 36 50 60</p>
+                    <p class="phone text-center" href="tel:33170365060">01 70 36 50 60</p>
                 </div>
             </div>
             <div class="last">
                 <div class="row justify-content-center">
-                    <img src="./images/logo-annatel-haut.svg" class="last-logo">
+                    <a href="https://www.sarelvolontariat.org/">
+                        <img src="./images/logo-annatel-haut.svg" class="last-logo">
+                    </a>
                 </div>
                 <div class="row justify-content-between align-items-center suivez-nous">
                     <div class="arrow"></div>
@@ -451,10 +479,14 @@
                 </div>
                 <div>
                     <div class="menu-item first-item">
-                        contact
+                        <a href="https://www.annatel.co.il/fr_FR/contact/">
+                            contact
+                        </a>
                     </div>
                     <div class="menu-item">
-                        Conditions générales de ventes
+                        <a href="https://www.annatel.co.il/termsNConditions/tnc.pdf">
+                            Conditions générales de ventes
+                        </a>
                     </div>
                     <div class="menu-item last-item">
                         © Annatel 2018. All rights reserved.
